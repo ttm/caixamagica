@@ -222,5 +222,5 @@ fpath_="../"
 aname="caixaMagica"
 P.rdf.writeAll(tg,aname+"Translate",fpath_,1)
 P.rdf.writeAll(tg2,aname+"Meta",fpath_,1)
-tg_=[tg[0]+tg2[0],tg[1]]
-P.rdf.writeAll(tg_,aname+"Full",fpath_,1)
+#tg_=[tg[0]+tg2[0],tg[1]]
+#P.rdf.writeAll(tg_,aname+"Full",fpath_,1)
