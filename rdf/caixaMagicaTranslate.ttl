@@ -25,8 +25,8 @@ cm:Consultation a owl:Class,
     rdfs:label "Consultation"@en,
         "Consulta"@pt,
         "nível"@pt ;
-    rdfs:comment "The consultation level of social participation.        This is the second level of social participation"@en,
-        "O nível de consulta de participação social.        Este é o segundo nível de participação social."@pt ;
+    rdfs:comment "The consultation level of social participation.            This is the second level of social participation"@en,
+        "O nível de consulta de participação social.            Este é o segundo nível de participação social."@pt ;
     rdfs:range "2"^^xsd:string ;
     rdfs:subClassOf cm:ParticipationLevel .
 
@@ -35,8 +35,8 @@ cm:Deliberation a owl:Class,
     rdfs:label "Deliberation"@en,
         "Deliberação"@pt,
         "nível"@pt ;
-    rdfs:comment "The deliberation level of social participation.        This is the third level of social participation"@en,
-        "O nível de deliberação de participação social.        Este é o terceiro nível de participação social."@pt ;
+    rdfs:comment "The deliberation level of social participation.            This is the third level of social participation"@en,
+        "O nível de deliberação de participação social.            Este é o terceiro nível de participação social."@pt ;
     rdfs:range "3"^^xsd:string ;
     rdfs:subClassOf cm:ParticipationLevel .
 
@@ -59,8 +59,8 @@ cm:FosteringExistingInitiatives a owl:Class,
     rdfs:label "Fostering Existing Initiatives"@en,
         "Fomento de Iniciativas Existentes"@pt,
         "nível"@pt ;
-    rdfs:comment "The 'fostering existing initiatives' level of social participation.        This is the fifth level of social participation"@en,
-        "O nível de 'fomento de iniciativas existentes' de participação social.        Este é o quinto nível de participação social."@pt ;
+    rdfs:comment "The 'fostering existing initiatives' level of social participation.            This is the fifth level of social participation"@en,
+        "O nível de 'fomento de iniciativas existentes' de participação social.            Este é o quinto nível de participação social."@pt ;
     rdfs:range "5"^^xsd:string ;
     rdfs:subClassOf cm:ParticipationLevel .
 
@@ -69,8 +69,8 @@ cm:Information a owl:Class,
     rdfs:label "Information"@en,
         "Informação"@pt,
         "nível"@pt ;
-    rdfs:comment "The information level of social participation.        This is the first level of social participation"@en,
-        "O nível de informação de participação social.        Este é o primeiro nível de participação social."@pt ;
+    rdfs:comment "The information level of social participation.            This is the first level of social participation"@en,
+        "O nível de informação de participação social.            Este é o primeiro nível de participação social."@pt ;
     rdfs:range "1"^^xsd:string ;
     rdfs:subClassOf cm:ParticipationLevel .
 
@@ -79,8 +79,8 @@ cm:JointAction a owl:Class,
     rdfs:label "Joint Action"@en,
         "Ação Conjunta"@pt,
         "nível"@pt ;
-    rdfs:comment "The joint action level of social participation.        This is the fourth level of social participation"@en,
-        "O nível de ação conjunta de participação social.        Este é o quarto nível de participação social."@pt ;
+    rdfs:comment "The joint action level of social participation.            This is the fourth level of social participation"@en,
+        "O nível de ação conjunta de participação social.            Este é o quarto nível de participação social."@pt ;
     rdfs:range "4"^^xsd:string ;
     rdfs:subClassOf cm:ParticipationLevel .
 
@@ -195,6 +195,6 @@ cm:Software a owl:Class ;
 cm:ParticipationLevel a owl:Class ;
     rdfs:label "Participation Level"@en,
         "Nível de Participação"@pt ;
-    rdfs:comment "The participation level of social participation:         1) Information,         2) Consultation,         3) Deliberation,         4) Joint Action,         5) Fostering Existing Initiatives."@en,
-        "O nível de participação social:         1) Informação,         2) Consulta,         3) Deliberação,         4) Ação Conjunta,         5) Fomento de Iniciativas Existentes."@pt .
+    rdfs:comment "The participation level of social participation:             1) Information,             2) Consultation,             3) Deliberation,             4) Joint Action,             5) Fostering Existing Initiatives."@en,
+        "O nível de participação social:             1) Informação,             2) Consulta,             3) Deliberação,             4) Ação Conjunta,             5) Fomento de Iniciativas Existentes."@pt .
 

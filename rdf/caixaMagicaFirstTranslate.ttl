@@ -1,0 +1,78 @@
+@prefix cm: <http://purl.org/socialparticipation/cm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix po: <http://purl.org/socialparticipation/po/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cm:DontExist a owl:Class ;
+    rdfs:label "Don't exist"@en,
+        "Não existe"@pt ;
+    rdfs:comment "the problem is something that do not exist"@en,
+        "o problema é algo que não existe"@pt ;
+    rdfs:subClassOf cm:Problem .
+
+cm:DontLike a owl:Class ;
+    rdfs:label "Don't like"@en,
+        "Não gosta"@pt ;
+    rdfs:comment "the problem is something that the individual or the community does not like"@en,
+        "o problema é algo que o indivíduo ou a comunidade não gosta"@pt ;
+    rdfs:subClassOf cm:Problem .
+
+cm:EnvironmentDontHave a owl:Class ;
+    rdfs:label "The environment don't have"@en,
+        "Não tem"@pt ;
+    rdfs:comment "the problem is something that the environment do not have"@en,
+        "o problema é algo que o ambiente não tem"@pt ;
+    rdfs:subClassOf cm:Problem .
+
+cm:IDontHave a owl:Class ;
+    rdfs:label "I don't have"@en,
+        "Não tenho"@pt ;
+    rdfs:comment "the problem is something that the individual do not have"@en,
+        "o problema é algo que o indivíduo não tem"@pt ;
+    rdfs:subClassOf cm:Problem .
+
+cm:Participant a owl:Class ;
+    rdfs:label "Participant"@en,
+        "Participante"@pt ;
+    rdfs:comment "a participant of a participation process"@en,
+        "um participante do processo de participação"@pt .
+
+cm:Solution a owl:Class ;
+    rdfs:label "Solution"@en,
+        "Solução"@pt ;
+    rdfs:comment "a solution for a problem reported by the community"@en,
+        "uma solução para um problema apresentado pela comunidade"@pt .
+
+cm:Vote a owl:Class ;
+    rdfs:label "Vote"@en,
+        "Voto"@pt ;
+    rdfs:comment "a vote in a participation process"@en,
+        "um voto no processo de participação"@pt .
+
+cm:associated a owl:ObjectProperty ;
+    rdfs:label "associated"@en,
+        "associado"@pt .
+
+cm:perform a owl:ObjectProperty ;
+    rdfs:label "perform"@en,
+        "faz"@pt ;
+    rdfs:comment "a participative action"@en .
+
+cm:reports a owl:ObjectProperty ;
+    rdfs:label "reports"@en,
+        "relata"@pt ;
+    rdfs:comment "an information given by a participant"@en .
+
+cm:solves a owl:ObjectProperty ;
+    rdfs:label "solves"@en,
+        "resolve"@pt .
+
+cm:Problem a owl:Class ;
+    rdfs:label "Problem"@en,
+        "Problema"@pt ;
+    rdfs:comment "a problem reported by the community"@en,
+        "um problema apresentado pela comunidade"@pt .
+

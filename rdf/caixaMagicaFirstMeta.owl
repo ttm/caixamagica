@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:po="http://purl.org/socialparticipation/po/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://purl.org/socialparticipation/po/Ontology#MagicBox">
+    <po:discorveryRDFFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/ttm/MagicBoxFirst/master/rdf/MagicBoxFirstMeta.owl</po:discorveryRDFFile>
+    <po:createdAt rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-11-22T20:33:38.387371</po:createdAt>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a conceptualization of the first system to be implemented in the Magic Box</rdfs:comment>
+    <po:acquiredThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caixa Mágica group conceptualization at LabicBR (Nov/2015)</po:acquiredThrough>
+    <po:rdfFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/ttm/MagicBoxFirst/master/rdf/MagicBoxFirstTranslate.owl</po:rdfFile>
+    <po:ttlFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/ttm/MagicBoxFirst/master/rdf/MagicBoxFirstTranslate.ttl</po:ttlFile>
+    <po:availableAt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/ttm/caixamagica</po:availableAt>
+    <po:discoveryTTLFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/ttm/MagicBoxFirst/master/rdf/MagicBoxFirstMeta.ttl</po:discoveryTTLFile>
+    <rdfs:label>Magic Box First Ontology</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/socialparticipation/po/Ontology"/>
+  </rdf:Description>
+</rdf:RDF>

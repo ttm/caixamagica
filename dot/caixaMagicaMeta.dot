@@ -4,7 +4,7 @@ digraph  {
 	"Magic Box Ontology"	 [color="#02F3DD",
 		style=filled];
 	0	 [color="#02F3F1",
-		label="2015-11-20 12:50:55.981777",
+		label="2015-11-22 20:33:38.139074",
 		style=filled];
 	"Magic Box Ontology" -> 0	 [label=createdAt];
 	1	 [color="#02F3F1",

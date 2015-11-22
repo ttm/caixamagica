@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://purl.org/socialparticipation/cm/perform">
+    <rdfs:label xml:lang="en">perform</rdfs:label>
+    <rdfs:comment xml:lang="en">a participative action</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="pt">faz</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/socialparticipation/cm/EnvironmentDontHave">
+    <rdfs:label xml:lang="pt">Não tem</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/socialparticipation/cm/Problem"/>
+    <rdfs:comment xml:lang="en">the problem is something that the environment do not have</rdfs:comment>
+    <rdfs:comment xml:lang="pt">o problema é algo que o ambiente não tem</rdfs:comment>
+    <rdfs:label xml:lang="en">The environment don't have</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/socialparticipation/cm/DontExist">
+    <rdfs:label xml:lang="en">Don't exist</rdfs:label>
+    <rdfs:comment xml:lang="pt">o problema é algo que não existe</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">Não existe</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.org/socialparticipation/cm/Problem"/>
+    <rdfs:comment xml:lang="en">the problem is something that do not exist</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/socialparticipation/cm/Participant">
+    <rdfs:label xml:lang="en">Participant</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">Participante</rdfs:label>
+    <rdfs:comment xml:lang="pt">um participante do processo de participação</rdfs:comment>
+    <rdfs:comment xml:lang="en">a participant of a participation process</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/socialparticipation/cm/Vote">
+    <rdfs:comment xml:lang="pt">um voto no processo de participação</rdfs:comment>
+    <rdfs:label xml:lang="en">Vote</rdfs:label>
+    <rdfs:comment xml:lang="en">a vote in a participation process</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">Voto</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/socialparticipation/cm/IDontHave">
+    <rdfs:label xml:lang="en">I don't have</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.org/socialparticipation/cm/Problem"/>
+    <rdfs:comment xml:lang="en">the problem is something that the individual do not have</rdfs:comment>
+    <rdfs:comment xml:lang="pt">o problema é algo que o indivíduo não tem</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">Não tenho</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/socialparticipation/cm/Solution">
+    <rdfs:comment xml:lang="en">a solution for a problem reported by the community</rdfs:comment>
+    <rdfs:comment xml:lang="pt">uma solução para um problema apresentado pela comunidade</rdfs:comment>
+    <rdfs:label xml:lang="en">Solution</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="pt">Solução</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/socialparticipation/cm/solves">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">solves</rdfs:label>
+    <rdfs:label xml:lang="pt">resolve</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/socialparticipation/cm/DontLike">
+    <rdfs:subClassOf rdf:resource="http://purl.org/socialparticipation/cm/Problem"/>
+    <rdfs:label xml:lang="pt">Não gosta</rdfs:label>
+    <rdfs:label xml:lang="en">Don't like</rdfs:label>
+    <rdfs:comment xml:lang="en">the problem is something that the individual or the community does not like</rdfs:comment>
+    <rdfs:comment xml:lang="pt">o problema é algo que o indivíduo ou a comunidade não gosta</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/socialparticipation/cm/reports">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:comment xml:lang="en">an information given by a participant</rdfs:comment>
+    <rdfs:label xml:lang="en">reports</rdfs:label>
+    <rdfs:label xml:lang="pt">relata</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/socialparticipation/cm/Problem">
+    <rdfs:label xml:lang="en">Problem</rdfs:label>
+    <rdfs:label xml:lang="pt">Problema</rdfs:label>
+    <rdfs:comment xml:lang="en">a problem reported by the community</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:comment xml:lang="pt">um problema apresentado pela comunidade</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/socialparticipation/cm/associated">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="pt">associado</rdfs:label>
+    <rdfs:label xml:lang="en">associated</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

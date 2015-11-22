@@ -1,0 +1,33 @@
+digraph  {
+	graph [label="Conceitualização da caixa mágica para a implementação inicial"];
+	node [label="\N"];
+	Problema	 [style=filled];
+	21	 [color="#A2F3D1",
+		label="xsd:float",
+		style=filled];
+	Problema -> 21	 [label=desempenho];
+	Solução	 [style=filled];
+	Solução -> Problema	 [label=resolve];
+	22	 [color="#A2F3D1",
+		label="xsd:float",
+		style=filled];
+	Solução -> 22	 [label=desempenho];
+	Participante	 [style=filled];
+	Participante -> Problema	 [label=relata];
+	Voto	 [style=filled];
+	Participante -> Voto	 [label=faz];
+	Voto -> Problema	 [label=associado];
+	Voto -> Solução	 [label=associado];
+	"Não tenho"	 [style=filled];
+	"Não tenho" -> Problema	 [arrowhead=empty,
+		arrowsize=2];
+	"Não tem"	 [style=filled];
+	"Não tem" -> Problema	 [arrowhead=empty,
+		arrowsize=2];
+	"Não existe"	 [style=filled];
+	"Não existe" -> Problema	 [arrowhead=empty,
+		arrowsize=2];
+	"Não gosta"	 [style=filled];
+	"Não gosta" -> Problema	 [arrowhead=empty,
+		arrowsize=2];
+}

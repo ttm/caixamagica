@@ -5,15 +5,15 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://purl.org/socialparticipation/po/Ontology#MagicBox">
-    <po:createdAt rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-11-20T12:50:55.981777</po:createdAt>
-    <po:availableAt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/ttm/caixamagica</po:availableAt>
-    <po:discorveryRDFFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/ttm/MagicBox/master/rdf/MagicBoxMeta.owl</po:discorveryRDFFile>
-    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a high level (and still preliminary) conceptualization</rdfs:comment>
+    <po:acquiredThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caixa Mágica group conceptualization at LabicBR (Nov/2015)</po:acquiredThrough>
     <po:ttlFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/ttm/MagicBox/master/rdf/MagicBoxTranslate.ttl</po:ttlFile>
-    <po:discoveryTTLFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/ttm/MagicBox/master/rdf/MagicBoxMeta.ttl</po:discoveryTTLFile>
-    <rdfs:label>Magic Box Ontology</rdfs:label>
+    <po:createdAt rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-11-22T20:33:38.139074</po:createdAt>
     <po:rdfFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/ttm/MagicBox/master/rdf/MagicBoxTranslate.owl</po:rdfFile>
     <rdf:type rdf:resource="http://purl.org/socialparticipation/po/Ontology"/>
-    <po:acquiredThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caixa Mágica group conceptualization at LabicBR (Nov/2015)</po:acquiredThrough>
+    <po:discoveryTTLFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/ttm/MagicBox/master/rdf/MagicBoxMeta.ttl</po:discoveryTTLFile>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a high level (and still preliminary) conceptualization</rdfs:comment>
+    <rdfs:label>Magic Box Ontology</rdfs:label>
+    <po:discorveryRDFFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/ttm/MagicBox/master/rdf/MagicBoxMeta.owl</po:discorveryRDFFile>
+    <po:availableAt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/ttm/caixamagica</po:availableAt>
   </rdf:Description>
 </rdf:RDF>
