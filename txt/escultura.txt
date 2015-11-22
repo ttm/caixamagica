@@ -1,0 +1,29 @@
+Descrição da caixa mágica (22/Nov/2015)
+
+*) Escultura
+Um cubo com as pernas nos vértices.
+Em cada face, uma representação dos cinco sentidos mais o coração.
+Mãos e pés também, 1 por face.
+Gancho para pendurar.
+Tecidos saindo da caixa.
+A caixa cheia de coisas, saindo tecido dela.
+Uma placa ou placas saindo da caixa em que estão representadas
+muitas coisas referentes às caixas.
+
+*) Design crítico
+O cubo simboliza o aspecto engessado da sociedade.
+As mãos, pés e sentidos humanizam a caixa e sugerem
+que a humanidade tenta se desvencilhar da estrutura rígida do cubo.
+
+*) Dinâmicas e gamificação
+A caixa, como uma escultura, pode ser aproveitada para dinâmicas
+participativas sem interferência do software.
+Exemplos:
+1- 4 pessoas, uma em cada vértice do cubo, se revezam falando uma
+frase sobre o tema do episódio participativo.
+2- Para uma sessão de falas, a ordem das pessoas cruza
+a sala de acordo com a disposição das pernas.
+3- Dinâmicas de jogo (ToDo: exemplificar).
+
+
+
