@@ -9,6 +9,8 @@ Tecidos saindo da caixa.
 A caixa cheia de coisas, saindo tecido dela.
 Uma placa ou placas saindo da caixa em que estão representadas
 muitas coisas referentes às caixas.
+A caixa pode ter um corte para colocar dinheiro
+e um gancho para pendurar.
 
 *) Design crítico
 O cubo simboliza o aspecto engessado da sociedade.
