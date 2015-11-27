@@ -49,9 +49,9 @@ svg.selectAll("rect")
    .data(dataset_)
    .enter()
    .append("rect")
-   .attr("x", function(d,i){return i*40;})
+   .attr("x", function(d,i){return margin+i*esp_;})
    .attr("y", function(d){return h-d;})
-   .attr("width", 20)
+   .attr("width", w_)
    .attr("height", function(d){return d;})
    .attr("fill", function(d) {
     return "rgb(0, 0, " + (d * 10) + ")";
@@ -60,13 +60,20 @@ svg.selectAll(".text1")
    .data(dataset_)
    .enter()
    .append("text")
-   .attr("x", function(d,i){return i*40;})
+   .attr("x", function(d,i){return margin+i*esp_;})
    .attr("y", function(d){return h-d-10;})
    .text(function(d,i){return dataset[i];});
 
 // colocamos numeros originais na parte de cima do svg
 // embelezamos a parte gráfica
+
 // fazemos o fundo com as transacoes no tempo
+
+// faz svg grande de fundo, talvez beje
+// mapeia os momentos para o eixo x
+// mapeia os usuarios para eixo y
+// coloca um traço vermelho para cada transação
+
 }
 $(document).ready(function(){
 
@@ -74,10 +81,14 @@ function doStuff(){
   //do some things
 	  setInterval(continueExecution, 3000);
 }
-w=500;
+w=250;
+w_=20;
 h=200;
 h_=220;
-hmax=h*0.8
+hmax=h*0.8;
+margin=0.1*w;
+esp=0.8*w;
+esp_=(esp-w_)/3
 svg = d3.select(".mcentered")
             .append("svg")
             .attr("width", w)
@@ -86,7 +97,7 @@ svg.selectAll(".text0")
    .data(["IPs","Probs","Sols","Votos"])
    .enter()
    .append("text")
-   .attr("x", function(d,i){return i*40;})
+   .attr("x", function(d,i){return  margin+i*esp_;})
    .attr("y", function(d,i){return h_;})
    .text(function(d){return d;});
 
