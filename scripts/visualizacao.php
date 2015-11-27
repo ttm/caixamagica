@@ -52,8 +52,11 @@ svg.selectAll("rect")
    .attr("x", function(d,i){return i*40;})
    .attr("y", function(d){return h-d;})
    .attr("width", 20)
-   .attr("height", function(d){return d;});
-svg.selectAll("text")
+   .attr("height", function(d){return d;})
+   .attr("fill", function(d) {
+    return "rgb(0, 0, " + (d * 10) + ")";
+});
+svg.selectAll(".text1")
    .data(dataset_)
    .enter()
    .append("text")
@@ -73,11 +76,20 @@ function doStuff(){
 }
 w=500;
 h=200;
+h_=220;
 hmax=h*0.8
 svg = d3.select(".mcentered")
             .append("svg")
             .attr("width", w)
-            .attr("height", h);
+            .attr("height", h_);
+svg.selectAll(".text0")
+   .data(["IPs","Probs","Sols","Votos"])
+   .enter()
+   .append("text")
+   .attr("x", function(d,i){return i*40;})
+   .attr("y", function(d,i){return h_;})
+   .text(function(d){return d;});
+
 
 
 function continueExecution() {
