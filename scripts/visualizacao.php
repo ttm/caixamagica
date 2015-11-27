@@ -1,55 +1,20 @@
-<head>
-<script src="js/jquery.js"></script>
-<script src="js/underscore-min.js"></script>
-<script src="js/d3.min.js"></script>
-<script src="js/d3.tip.v0.6.3.js"></script>
-<style>
-.mcentered3 {
-    margin: 0 0 3px 0;
-    text-align: center;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-}
-.mcentered, .mcentered2,  {
-    margin: 0 0 3px 0;
-    text-align: center;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-}
-
-svg{
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-}
-.d3-tip {
-  line-height: 1;
-  font-weight: bold;
-  padding: 12px;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  border-radius: 2px;
-font-size: 12px;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-text-align:center;
-}
-
-/* Creates a small triangle extender for the tooltip */
-.d3-tip:after {
-  box-sizing: border-box;
-  display: inline;
-  font-size: 10px;
-  width: 100%;
-  line-height: 1;
-  color: rgba(0, 0, 0, 0.8);
-  content: "\25BC";
-  position: absolute;
-  text-align: center;
-}
-
-/* Style northward tooltips differently */
-.d3-tip.n:after {
-  margin: -1px 0 0 0;
-  top: 100%;
-  left: 0;
-}
-</style>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caixa Mágica | Resultados</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    
+	<script src="js/jquery.js"></script>
+	<script src="js/underscore-min.js"></script>
+	<script src="js/d3.min.js"></script>
+	<script src="js/d3.tip.v0.6.3.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
 
 </head>
 
@@ -251,6 +216,14 @@ doStuff();
 // varre mdata para fazer a visualização
 });
 </script>
+
+<body class="opciones">
+	
+<div class="row">
+      <div class="large-12 columns">
+        <h2>Resultados</h2>
+      </div>
+    </div>
 <div class="mcentered3">
 <strong>
 Atividade participativa
@@ -266,3 +239,19 @@ Atividade no tempo
 </strong>
 <div class="mcentered2"></div>
 </div>
+          <div class="tool5 section">
+	          
+	          <a href="index.php?nao_importa=1" class="medium alert button">
+		          
+		          <p>NÃO ME IMPORTA</p>
+		          <ul id="icons" class="ui-widget ui-helper-clearfix">
+			      <li class="ui-state-default ui-corner-all" title="NÃO ME IMPORTA"><span class="ui-icon ui-icon-alert"></span></li>
+	          </ul>
+		          
+		          
+		  </a>
+          </div>
+          
+  </body>
+</html>
+
