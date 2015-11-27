@@ -2,21 +2,32 @@
 <script src="js/jquery.js"></script>
 </head>
 
-<?php
-  include_once('dbconfig.php');
-  $result=mysqli_query($conn, "SELECT * from transacoes_caixamagica;");
-  //$result2=mysqli_fetch_array($conn, $result);
-  $result2=mysqli_fetch_all( $result,MYSQLI_ASSOC);
-print_r($result2);
-?>
 <script>
 $(document).ready(function(){
-    myArray = <?php print(json_encode($result2)); ?>;
-//    console.log(myArray);
-	bona=56;
-for (i=0;i<myArray.length;i++){
-console.log(myArray[i].metodo);
+
+function doStuff(){
+  //do some things
+	  setInterval(continueExecution, 3000);
 }
+
+function continueExecution() {
+	console.log("esso");
+	// refazer a query php,
+	// acho que chamando um arquivo externo
+
+  $.ajax({
+            url: "getData.php",
+		dataType: 'json'
+        })
+        .done(function(resultt) {
+		mdata=resultt;
+        });
+	
+}
+continueExecution();
+doStuff();
 });
+// dar um pulso periódico
+// depois disso fazer a query no servidor e devolver periodicamente
 </script>
 BANANA!
